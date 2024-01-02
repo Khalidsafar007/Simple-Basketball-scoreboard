@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh;
+    margin: 0;
+    background-image: url("basketballl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    color: white;
+    background-color: black;
+    opacity: 0.75;
+    font-size: 100px;
+}
+.container {
+    align-items: center;
+    text-align: center;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.team {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    width: 30%;
+    height: 200px;
+}
+
+.score {
+    font-size: 80px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    background-color: #f80404;
+}
+
+#timer {
+    border-color: rgb(255, 2, 2);
+    border: 5cm;
+    font-size: 100px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 100px;
+}
+
+h3{
+    font-size: 50px;
+    color: aliceblue;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 100px;
+}
+.hidden{
+    display: none;
+}
